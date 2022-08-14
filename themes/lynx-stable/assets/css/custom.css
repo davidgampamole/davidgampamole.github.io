@@ -1,0 +1,7 @@
+.link-block {
+     background: #68259500;
+     color: rgb(107 114 128);
+     border-color: red;
+     border-width: medium;
+     pointer-events: none;
+   }
