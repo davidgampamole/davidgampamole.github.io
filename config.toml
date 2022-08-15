@@ -1,8 +1,10 @@
-baseURL = 'http://davidgampamole/github.io'
+baseURL = 'http://davidgampamole.github.io'
 title = 'David Gampamole'
-theme = 'lynx-stable'
+theme = 'lynx'
 languageCode = "en"
 defaultContentLanguage = "en"
+description = 'Kumpulan link sosial media dari David Gampamole'
+verification.google = ''
 
 # copyright = "Copy, _right?_ :thinking_face:"
 
@@ -11,9 +13,10 @@ disableKinds = ["taxonomy", "term"]
 
 [author]
   name = "David Gampamole"
-  headline = "Hai senang berkenalan denganmu."
+  headline = "Hai, senang berkenalan denganmu."
   image = "me.jpg"
   links = [
+    { block = { text = "Social Media" } },
     { instagram = "https://www.instagram.com/david.gampamole" },
     { instagram = { href = "https://www.instagram.com/_davaga", text = "_davaga" } },
     { facebook = "https://facebook.com/davidgampamole" },
@@ -21,14 +24,15 @@ disableKinds = ["taxonomy", "term"]
     { github = "https://github.com/" },
     { youtube = "https://www.youtube.com/channel/UC3c8h1vRnagVHPymajUaHpg?sub_confirmation=1" },
     { twitch = "https://www.twitch.tv/jejago_" },
-    { block = { text = "Website" } },
-    { flickr = "https://www.flickr.com/photos/davidgampamole"},
-    { tumblr = "https://davidgampamole.tumblr.com" },
-    { link = { href = "https://davidgampamole.blogspot.com", text = "Blog" } },
     { lastfm = "https://www.last.fm/user/extrain_ge" },
     { letterboxd = "https://letterboxd.com/_davaga" },
     { trakt = "https://trakt.tv/users/davaga" },
     { goodreads = "https://www.goodreads.com/davidgampamole" },
+    { block = { text = "Website" } },
+    { flickr = "https://www.flickr.com/photos/davidgampamole"},
+    { tumblr = "https://davidgampamole.tumblr.com" },
+    { link = { href = "https://davidgampamole.blogspot.com", text = "Blog" } },
+    { block = { text = "Game" } },
     { steam = "https://steamcommunity/id/davidgampamole" },
   ]
 
