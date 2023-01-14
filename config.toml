@@ -33,7 +33,7 @@ disableKinds = ["taxonomy", "term"]
     { tumblr = "https://davidgampamole.tumblr.com" },
     { link = { href = "https://davidgampamole.blogspot.com", text = "Blog" } },
     { block = { text = "Game" } },
-    { steam = "https://steamcommunity/id/davidgampamole" },
+    { steam = "https://steamcommunity.com/id/davidgampamole" },
   ]
 
 [markup.highlight]
