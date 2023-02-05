@@ -21,19 +21,19 @@ disableKinds = ["taxonomy", "term"]
     { instagram = { href = "https://www.instagram.com/_davaga", text = "_davaga" } },
     { facebook = "https://facebook.com/davidgampamole" },
     { twitter = "https://twitter.com/_davidgampamole" },
-    { github = "https://github.com/" },
+    { github = "https://github.com/davidgampamole" },
     { youtube = "https://www.youtube.com/channel/UC3c8h1vRnagVHPymajUaHpg?sub_confirmation=1" },
     { twitch = "https://www.twitch.tv/jejago_" },
     { lastfm = "https://www.last.fm/user/extrain_ge" },
     { letterboxd = "https://letterboxd.com/_davaga" },
-    { trakt = "https://trakt.tv/users/davaga" },
+    { serializd = "https://serializd.com/user/davaga"},
     { goodreads = "https://www.goodreads.com/davidgampamole" },
     { block = { text = "Website" } },
     { flickr = "https://www.flickr.com/photos/davidgampamole"},
     { tumblr = "https://davidgampamole.tumblr.com" },
     { link = { href = "https://davidgampamole.blogspot.com", text = "Blog" } },
     { block = { text = "Game" } },
-    { steam = "https://steamcommunity/id/davidgampamole" },
+    { steam = "https://steamcommunity.com/id/davidgampamole" },
   ]
 
 [markup.highlight]
