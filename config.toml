@@ -14,7 +14,7 @@ disableKinds = ["taxonomy", "term"]
 [author]
   name = "David Gampamole"
   headline = "Hai, senang berkenalan denganmu."
-  image = "me.jpg"
+  image = "me.webp"
   links = [
     { block = { text = "Social Media" } },
     { instagram = "https://www.instagram.com/david.gampamole" },

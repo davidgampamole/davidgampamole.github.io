@@ -1,19 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>David Gampamole</title>
-    <link>http://davidgampamole.github.io/</link>
-    <description>Recent content on David Gampamole</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="http://davidgampamole.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Link styles</title>
-      <link>http://davidgampamole.github.io/style/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://davidgampamole.github.io/style/</guid>
-      <description>emaillinkamazonapplecodependevdiscorddribbblefacebookflickrfoursquaregithubgitlabgoogleinstagramkeybasekickstarterlastfmlinkedinmastodonmediummicrosoftpatreonpinterestredditslacksnapchatsoundcloudsteamtelegramtiktoktumblrtwitchtwitterwhatsappyoutube</description>
-    </item>
-    
-  </channel>
-</rss>

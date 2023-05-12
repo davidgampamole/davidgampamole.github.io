@@ -1,0 +1,43 @@
+<!-- Required meta tags always come first -->
+<meta charset="UTF-8" />
+{{ with .Site.LanguageCode }}
+    <meta http-equiv="content-language" content="{{ . }}" />
+{{ end }}
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+<!-- General -->
+<meta name="description" content="{{ .Description | plainify }}" />
+<meta name="author" content="{{ .Site.Title }}" />
+<meta name="keywords" content="david, gampamole, david gampamole, davidgampamole, manado, sulawesi utara, indonesia, biolink, links page" />
+
+<!-- Facebook Open Graph -->
+<meta property="og:type" content="sites"  />
+<meta property="og:title"  content="{{ .Site.Title }} - Bio Link" />
+<meta content="{{ .Description | plainify }}" property="og:description"  />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:site_name" content="{{ .Site.Title }}" />
+<meta content="id_ID" property="og:locale:" />
+
+<!-- Facebook Open Graph Image -->
+{{ if .Params.images }}
+<meta property="og:image" content="{{ .Params.images }}" />
+{{ else if .Params.images }}
+<meta property="og:image" content="{{ .RelPermalink }}" />
+{{ else }}
+<meta property="og:image" content="{{ .Site.BaseURL }}/img/me.webp" />
+{{ end }}
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:desription" content="{{ .Description | plainify }}" />
+<meta name="twitter:title" content="{{ .Site.Title }} - Bio Link" />
+
+<!-- Twitter Card Image -->
+{{ if .Params.images }}
+<meta property="twitter:image" content="{{ .Params.images }}" />
+{{ else if .Params.images }}
+<meta property="twitter:image" content="{{ .RelPermalink }}" />
+{{ else }}
+<meta property="twitter:image" content="{{ .Site.BaseURL }}/img/me.webp" />
+{{ end }}

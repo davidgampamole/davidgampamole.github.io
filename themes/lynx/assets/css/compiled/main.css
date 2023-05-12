@@ -56,7 +56,7 @@ body {
   /* 1 */
   line-height: inherit;
   /* 2 */
-  background-color: #151828;
+  background-color: #30385c;
 }
 
 /*
@@ -1001,7 +1001,7 @@ video {
 
 .link {
   --tw-bg-opacity: 1;
-  background-color: rgb(126 34 206 / var(--tw-bg-opacity));
+  background-color: rgb(244 80 2 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -1176,6 +1176,9 @@ video {
   background-color: #ed1c24;
 }
 
+.link-serializd {
+  background-color: #1b1e23;
+}
 /* -- Chroma Highlight -- */
 
 /* Background */
@@ -1369,7 +1372,7 @@ video {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
 }
-}
+
 
 @media (min-width: 640px) {
   .sm\:min-w-0 {
